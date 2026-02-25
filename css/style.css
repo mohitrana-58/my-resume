@@ -9,42 +9,113 @@ width:100%;
 height:100%;
 }
 
+
+:root{
+    --primary-color:#9333ea;
+    --secondary-color:#ec4899;
+    --third-color:rgb(255, 102, 0);
+}
+
 .main{
     width:100%;
     height: 100%;
-    display: relative;
+    display: absolute;
+    background: linear-gradient(to bottom right,#9333ea,#9333ea,#9333ea,#ec4899);
 }
+/*class 1*/
 .logo{
     height:100px;
     width: 100vw;
     font-size: 3vw;
     display: flex;
+    text-align: center;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    border: 1px solid #dadada;
 }
-.nav{
-display: flex;
-align-items: center;
-gap: 10px;
+.logo h1{
+    margin-top:20vw;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+  font-size: 4vw;
+  color: white;
+
 }
-.nav h4{
-    font-size: 3vw;
+.base-line{
+    display: flex;
+    margin-top: 25vh;
+    border: 1px solid transparent;
+    border-radius: 3px 2px 3px 2px;
+    background: linear-gradient(white, white)
+    padding-box, linear-gradient(to right, rgba(194, 13, 197, 0.677), var(--secondary-color), var(--third-color))border-box;
+    border-width: 2px;
+    margin-left: 45%;
+    margin-right: 45%;
+    
 }
-.nav i{
-    display: none;
-}   
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+.sub h2{
+    font-weight: 300;
+}
+.sub2{
+    color: white;
+    margin-top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub2 span{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
 
 @media (max-width:600px){
     .logo{
         padding:0 5vw;
-        background: burlywood;
     }
-    .nav h4{
-        display: none;
-    }   
-    .nav i{
-        display: block;
-        font-size: 5vw;
+    .base-line{
+         width:20%;
+        margin: 15vw 2vw 2vw 40vw;
     }
+    .logo h1{
+        color: white;
+        font-size: 10vw;
+    }
+
+    .sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.sub h2{
+    font-weight: 300;
+}
+
+    .sub2{
+    color: white;
+    margin-top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub2 span{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
 }
