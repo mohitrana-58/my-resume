@@ -76,8 +76,25 @@ height:100%;
     justify-content: center;
 }
 
+.about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    font-family: "Raleway", sans-serif;
+   
+}
+.about-me h1{
+    color: white;
+      display: flex;
+    border: 1px solid transparent;
+    border-radius: 12px;
+   background: linear-gradient(#9333ea,#ec4899);
+   
+    margin-left: 45%;
+    margin-right: 45%;
 
-
+}
 @media (max-width:600px){
     .logo{
         padding:0 5vw;
