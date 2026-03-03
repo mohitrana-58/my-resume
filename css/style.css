@@ -207,7 +207,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5vh;
+    margin-top: 20vh;
     height: 100px;
     font-size: 12px;
 
@@ -217,7 +217,7 @@ html, body {
     text-align: center;
     width: 100px;
     height: 30px;
-    margin-top:4px
+    margin-top:-200px
 }
 .info1{
     width: 100%;
