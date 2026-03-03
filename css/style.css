@@ -162,7 +162,7 @@ html, body {
     font-weight: 300;
     font-size: 17px;
 }
-@media (max-width: 1024px){
+@media (min-width: 325px) and (max-width: 1024px){
     .logo{
         padding:0 5vw;
     }
