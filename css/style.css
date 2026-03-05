@@ -85,7 +85,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 25vh;
+    margin-top: 150px;
     font-family: "Raleway", sans-serif;
    
 }
@@ -230,7 +230,7 @@ html, body {
     text-align: center;
     width: 100px;
     height: 30px;
-    margin-top:-900px
+    margin-top:-900px;
 }
 .box{
     margin-top: -490%;
