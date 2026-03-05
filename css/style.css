@@ -207,7 +207,6 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20vh;
     width: 100%;
     height: 100%;
     font-size: 12px;
@@ -218,7 +217,7 @@ html, body {
     text-align: center;
     width: 100px;
     height: 30px;
-    margin-top:-400px
+    margin-top:-550px
 }
 .info1{
     width: 100%;
@@ -233,13 +232,13 @@ html, body {
     font-size: small;
 }
 .box{
-    margin-top: -800px;
+    margin-top: -370%;
     width: 100vw;
     height: 400px;
 
 }
 
 .box2 p{
-    margin-top: -450px;
+    margin-top: -420px;
 }
 }
