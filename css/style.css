@@ -222,6 +222,7 @@ html, body {
     width: 100%;
     height: 100%;
     font-size: 12px;
+    margin: 0%;
 
 }
 .about-me h1{
@@ -241,5 +242,8 @@ html, body {
 .box2 p{
     display: none;
     margin-top: -420px;
+}
+.boxx{
+    margin-top: -140px;
 }
 }
