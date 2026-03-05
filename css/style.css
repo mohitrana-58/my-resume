@@ -230,7 +230,7 @@ html, body {
     text-align: center;
     width: 100px;
     height: 30px;
-    margin-top:-550px
+    margin-top:-900px
 }
 .box{
     margin-top: -490%;
@@ -239,7 +239,7 @@ html, body {
 
 }
 .box p{
-    margin: -10px 10px -15px -10px;
+    margin: 50px 10px -15px -10px;
 }
 .box2 p{
     display: none;
